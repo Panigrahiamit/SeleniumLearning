@@ -130,18 +130,7 @@ public class practiceall {
 		driver.findElement(By.xpath("//input[@onclick='Billing.save()']")).click();
 		Thread.sleep(5000);
 		
-//		try {
-//		    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-//		    // Wait for the button to be clickable
-//		    WebElement noThanksBtn = wait.until(ExpectedConditions.elementToBeClickable(
-//		        By.xpath("//button[normalize-space()='No thanks']")
-//		    ));
-//		    noThanksBtn.click();
-//		    System.out.println("Clicked 'No thanks' button successfully");
-//		} catch (Exception e) {
-//		    System.out.println("No address save popup found or button not clickable: " + e.getMessage());
-//		}
-	
+
 		
 		
 		driver.findElement(By.xpath("//input[@onclick='Shipping.save()']")).click();
@@ -177,6 +166,19 @@ public class practiceall {
 		Thread.sleep(2000);
 		
 			driver.findElement(By.linkText("Log out")).click();
+			
+//			try {
+//		    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+//		    // Wait for the button to be clickable
+//		    WebElement noThanksBtn = wait.until(ExpectedConditions.elementToBeClickable(
+//		        By.xpath("//button[normalize-space()='No thanks']")
+//		    ));
+//		    noThanksBtn.click();
+//		    System.out.println("Clicked 'No thanks' button successfully");
+//		} catch (Exception e) {
+//		    System.out.println("No address save popup found or button not clickable: " + e.getMessage());
+//		}
+	
 			
 		
 	}
