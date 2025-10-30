@@ -8,9 +8,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-
 import org.openqa.selenium.edge.EdgeDriver;
-
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
@@ -24,7 +22,6 @@ public class PracticeAuto {
 	
 	@BeforeTest
 	void beforetest() throws InterruptedException {
-		
 		
 		driver.manage().window().maximize();
 		driver.get("https://demowebshop.tricentis.com/");
